@@ -1,0 +1,7 @@
+Chạy pip install -r requirement.txt
+
+Run ll_env:
+python -m venv ll_env; Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; .\ll_env\Scripts\Activate.ps1; python -c "import sys; print(sys.executable)"
+
+Run Swagger:
+uvicorn main:app --reload 

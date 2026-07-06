@@ -1,0 +1,8 @@
+fastapi
+pandas
+langchain-core
+uvicorn
+python-multipart
+langchain_ollama
+deepeval
+openpyxl

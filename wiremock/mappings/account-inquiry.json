@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/openapi/v1/accounts/123456789"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "requestId": "REQ20260613001",
+      "responseCode": "00",
+      "responseMessage": "Success",
+      "data": {
+        "accountNo": "123456789",
+        "accountName": "NGUYEN VAN A",
+        "currency": "VND",
+        "availableBalance": 25000000,
+        "status": "ACTIVE"
+      }
+    }
+  }
+}

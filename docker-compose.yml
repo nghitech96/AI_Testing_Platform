@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+
+  wiremock:
+    image: wiremock/wiremock:latest
+    container_name: wiremock
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./wiremock:/home/wiremock
+
+    command:
+      - --global-response-templating
